@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.container-companyinfo {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: -27rem;
+}
+
+.register-form-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: #fff;
+  height: 90rem;
+  padding-left: 1rem;
+  width: 22.8rem;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+.form-field {
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  /* width: 334px; */
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(142, 142, 142, 0.5);
+  box-sizing: border-box;
+  
+}
+
+.warning {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #204ECF;;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  border: none;
+  margin-top: 2rem;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.head-info {
+    font-size: 20px;
+    color: #1D1D1D;
+    margin-bottom: 2rem;
+    text-align: left;
+    margin-top: 30rem;
+}
+
+.head {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D1D1D;
+}
+
+.log {
+    cursor: pointer;
+}
+
+.eye {
+    position: absolute;
+    top: 31.5rem;
+    right: 35.5rem;
+}
+
+.eye:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.reeye {
+    position: absolute;
+    top: 37rem;
+    right: 35.5rem;
+}
+
+.reeye:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.lab {
+    margin-right: 12.1rem;
+}
+.labu {
+    margin-right: 12.1rem;
+}
+
+.lab1 {
+    margin-bottom: -3rem;
+    margin-top: 1rem;
+    padding-right: 16rem;
+}
+
+.lab2 {
+    padding-right: 18.3rem;
+}
+
+.policy {
+  margin-top: -1.2rem;
+}
+
+.form-field-message {
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  width: 334px;
+  background: #F3F5F7;
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(142, 142, 142, 0.5);
+  box-sizing: border-box;
+  height: 200rem;
+  top: 711px;
+}
+
+.warning {
+  color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  .register-form-info {
+    width: 320px;
+    padding-right: -5rem;
+    padding-left: 4.5rem;
+  }
+
+  .form-field {
+    width: 290px;
+  }
+  .labu {
+    margin-right: 9.5rem;
+  }
+  .lab2 {
+    margin-right: -3rem;
+  }
+  .lab1 {
+    margin-right: -3rem;
+  }
+  .submtb {
+    margin-right: 3rem;
+  }
+}

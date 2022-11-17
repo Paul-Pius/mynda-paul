@@ -1,0 +1,53 @@
+.o-container {
+	background: #F5F5F5;
+	font-family: montserrat;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.container {
+	margin: auto;
+	width: 90%;
+	font-family: montserrat;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: montserrat;
+	src: url(../../assets/fonts/Montserrat-Thin_fc6bcc51364950792d2911efa2bf416d.ttf);
+}
+
+@font-face {
+	font-family: montserrat-semibold;
+	src: url(../../assets/fonts/Montserrat\ SemiBold\ 600.ttf);
+}
+
+@font-face {
+	font-family: montserrat-bold;
+	src: url(../../assets/fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+	font-family: montserrat-medium;
+	src: url(../../assets/fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+.message-header {
+	display: flex;
+	background-color: #FFF;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.message-header-arrow {
+	padding-top: 1.2em;
+	padding-right: 7.5em;
+	padding-left: 1em;
+}

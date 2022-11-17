@@ -1,0 +1,55 @@
+.container-addedu {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-field {
+      margin: 10px 0 10px 0;
+      padding: 15px;
+      font-size: 16px;
+      border: 0;
+      font-family: "Roboto", sans-serif;
+      width: 100%;
+    }
+  
+    /* .container {
+      width: 300px;
+      padding-left: 2rem;
+      padding-right: 7rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    } */
+    
+    .head {
+      padding-top: 1.5rem;
+      font-size: 15px;
+      color: #1D1D1D;
+    }
+    
+    .telushead {
+      margin-bottom: 3rem;
+    }
+    
+    .fom-add-edu {
+      background: white;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      width: 23rem;
+      padding-bottom: 8rem;
+      padding-left: 1.3rem;
+      margin-top: -8rem;
+      height: 50rem
+    }
+  
+    @media screen and (max-width: 600px) {
+        .fom {
+          width: 320px;
+        }
+        .container-addedu {
+            width: 250px;
+        }
+      }

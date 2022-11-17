@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.form-contain-editshare {
+  display: flex;
+  min-height: 100vh;
+  margin-left: 32rem;
+  margin-top: -8rem;
+}
+
+.register-form-upload-editshare {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: -1.5rem;
+  width: 23rem;
+  background: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.form-field {
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  width: 100%; 
+  background: #F3F5F7;
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.policy {
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+.prfedit{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  display: flex;
+  color: #1D1D1D;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .form-contain-addshare {
+      width: 370px;
+    }
+
+    .register-form-upload-addshare {
+        width: 310px;
+    }
+  
+    .form-field {
+      width: 280px;
+    }
+  }

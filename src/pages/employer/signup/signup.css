@@ -1,0 +1,103 @@
+.signup-body {
+	margin: auto;
+	width: 90%;
+	font-family: montserrat;
+}
+
+.form-header {
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+	display: flex;
+	margin-bottom: 2em;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+.form-header-arrow {
+	padding-right: 2.5em;
+}
+
+.form-header h3 {
+	font-family: montserrat-medium;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.form-items label{
+	text-align: left;
+	display: flex;
+	font-weight: 500;
+	font-family: montserrat-medium;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-bottom: 0.5em;
+}
+
+.form-items input{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 90%;
+	height: 40px;
+	margin-bottom: 2em;
+	background: #F3F5F7;
+	font-family: montserrat;
+	padding-left: 1em;
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000;
+	border: 0;
+	outline: 0;
+}
+
+.form-items input [type= select] {
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+
+.form-items input[type= text-area] {
+	padding-bottom: 5em;
+}
+
+.btn-container {
+	width: 100%;
+}
+
+.signup-btn {
+	width: 95%;
+	font-size: 17px;
+	font-family: montserrat-bold;
+	padding: 1em;
+	/* border: 0; */
+	border-radius: 5px;
+	width: 100%;
+	color: #fff;
+	background-color: #204ECF;
+}
+
+.existing-user-alt {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	gap: .5em;
+}
+
+.existing-user-alt a {
+	font-weight: 800;
+	color: black;
+}
+
+.terms-and-conditions-link a{
+	font-weight: 800;
+	color: black;
+}

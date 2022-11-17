@@ -1,0 +1,158 @@
+.agencies-header-text {
+	font-family: montserrat-medium;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 21px;
+}
+
+.agencies-body {
+	background: #F5F5F5;
+}
+
+.agencies-category {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.agencies-category-row {
+	display: flex;
+	gap: 1em;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius:10px;
+	background: #FFFFFF;
+	border: 1px solid rgba(142, 142, 142, 0.2);
+	box-shadow: 0px 8px 16px 2px rgba(0, 0, 0, 0.08);
+	width: 95%;
+	padding-left: 0em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 1em;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: #FFFFFF;
+}
+
+.agencies-img-container {
+	box-sizing: border-box;
+	margin-left: 0.3em;
+	padding-left: 0;
+	width: 100%;
+}
+
+.agencies-img {
+	position: relative;
+	width: 90%;
+	border-radius: 5px;
+	left: 0.75%;
+	right: 71.51%;
+	top: 8.81%;
+	bottom: 40.88%;
+	padding-left: 0em;
+	margin-left: 0em;
+	object-fit: contain;
+	box-sizing: border-box;
+}
+
+.agencies-link {
+	background-color: #20CF91;
+	color: #FFF;
+	border-radius: 2px;
+	margin-top: 0.2em;
+	margin-left: 0em;
+	padding: 0.4em 0.5em 0.4em 0em;
+	background: #20CF91;
+}
+
+.agencies-link span {
+	text-align: left;
+}
+
+.agencies-name {
+	margin-top: 0em;
+	margin-top: 0em;
+	margin-bottom: .5em;
+	margin-left: 0em;
+	padding-left: 0;
+}
+.agencies-name h4 {
+	margin: 0;
+	padding-right: 2em;
+	padding-left: 1em;
+	left: 35.91%;
+	right: 19.58%;
+	top: 8.81%;
+	bottom: 77.36%;
+	font-family: montserrat-medium;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #1D1D1D;
+	text-align: left;
+}
+
+.agencies-location {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0em 0.5em 0.61em 0.8em;
+	padding: 0;
+}
+
+.agencies-location p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #8E8E8E;
+}
+
+.agencies-location img {
+	margin-right: 0.3em;
+}
+
+.agencies-category-tag {
+	margin-left: 0.9em;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	align-items: flex-start;
+	width: 80%;
+}
+
+.agencies-category-tag p {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 0.5em;
+}
+
+.agencies-category-tag-links span {
+	border-radius: 0.2em;
+	padding: .2em 1.2em .3em 1.2em;
+	margin-right: 0.5em;
+	font-size: 14px;
+	font-weight: 600;
+	color: #8E8E8E;
+	background-color: #F3F5F7;
+}
+
+.agencies-category-col-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: relative;
+	margin-left: 0em;
+	margin-top: 5.8em;
+	margin-right: 1em;
+}

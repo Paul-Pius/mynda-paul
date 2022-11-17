@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.form-contain-addshare {
+  justify-items: center;
+  margin-left: 33rem;
+}
+
+.register-form-upload-addshare {
+  width: 23rem;
+  background: #fff;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  width: 100%; 
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.policy {
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+.prfadd{
+  margin-bottom: -1rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .form-contain-addshare {
+      width: 370px;
+    }
+
+    .register-form-upload-addshare {
+        width: 310px;
+    }
+  
+    .form-field {
+      width: 280px;
+    }
+  }

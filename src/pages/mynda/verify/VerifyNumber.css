@@ -1,0 +1,69 @@
+.container-verify {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+.row {
+    text-align: center;
+    margin-top: -8rem;
+}
+
+.otp-field {
+    width: 50px;
+    margin-right: 10px;
+    padding-left: 12px;
+    height: 40px;
+}
+
+.resendotp {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    color: #8E8E8E;
+    margin-top: 0.5rem;
+}
+
+.verify {
+    margin-bottom: -0.8rem;
+    padding-top: 5rem;
+    color: #1D1D1D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.parag1 {
+    line-height: 1%;
+    padding-bottom: 2rem;
+    margin-top: -2rem;
+    color: #1D1D1D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.parag2 {
+    margin-bottom: 6rem;
+    /* margin-top: -8rem; */
+    color: #1D1D1D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.resendotp1 {
+    cursor: pointer;
+    padding-left: 0.3rem;
+}
+
+.otpForm {
+    background: #FFFFFF;
+    height: 100vh;
+    border: none;
+    margin-top: -8rem;
+}

@@ -1,0 +1,118 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:300); */
+
+.container-agent {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8rem;
+}
+
+.register-form-agent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin-top: -6rem;
+  background: #fff;
+  height: 50rem;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  background: #F3F5F7;
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  color: rgba(142, 142, 142, 0.5);
+  box-sizing: border-box;
+}
+
+.warning {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #204ECF;;
+  color: white;
+  cursor: pointer;
+  /* height: 50px; */
+  border: none;
+  margin-top: 2rem;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.head1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #1D1D1D;
+    margin-top: 25rem;
+}
+
+.head {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D1D1D;
+}
+
+.log {
+    cursor: pointer;
+}
+
+.eyea {
+    position: absolute;
+    top: 30.5rem;
+    right: 35.5rem;
+}
+
+.eye:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.reeyea {
+    position: absolute;
+    top: 36rem;
+    right: 35.5rem;
+}
+
+.reeye:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.lab {
+    margin-left: 0.2rem;
+}
+
+.spn {
+  margin-top: -1rem;
+}
+

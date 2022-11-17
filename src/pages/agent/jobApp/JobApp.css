@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.container-jobapplication {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form-jobapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: #fff;
+  height: 65rem;
+  margin-top: -10rem;
+  padding-left: 1rem;
+  width: 22.8rem;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  background: #F3F5F7;
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(142, 142, 142, 0.5);
+  box-sizing: border-box;
+  
+}
+
+.warning {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #204ECF;;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  border: none;
+  margin-top: 2rem;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.head-info-jobapp {
+    font-size: 20px;
+    color: #1D1D1D;
+    margin-bottom: -3.5rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.head {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D1D1D;
+}
+
+.log {
+    cursor: pointer;
+}
+
+.labj {
+    text-align: left;
+    margin-bottom: -1.5rem;
+    margin-top: -1rem;
+}
+
+.policy {
+  margin-top: -1.2rem;
+}
+
+.form-field-message {
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  width: 334px;
+  background: #F3F5F7;
+  border: 1px solid rgba(213, 211, 211, 0.1);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(142, 142, 142, 0.5);
+  box-sizing: border-box;
+  height: 200rem;
+  top: 711px;
+}
+
+.warning {
+  color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  .register-form-info {
+    width: 320px;
+  }
+
+  .form-field {
+    width: 290px;
+  }
+}

@@ -1,0 +1,264 @@
+.container-multiselect {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .fom {
+    background:#F3F5F7;
+    height: 20rem;
+    width: 360px;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    padding-top: -8rem;
+    position: relative;
+    padding-right: -20rem;
+} */
+
+.btns {
+    width: 360px;
+    position: relative;
+    left: -8rem;
+    top: 4rem;
+    height: 250px;
+    background: #F3F5F7;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
+
+.mais {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    bottom: 24px;
+    left: 1rem;
+    border: 1px solid;
+    top: 1rem;
+    justify-content: start;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.mai {
+    position: relative;
+    top: -8px;
+    color: #1D1D1D;
+}
+
+.cook {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    bottom: 24px;
+    left: 13.5rem;
+    border: 1px solid;
+    top: 1rem;
+    justify-content: start;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.coo {
+    position: relative;
+    bottom: 8px;
+    /* left: 2.6rem; */
+    color: #1D1D1D;
+}
+
+.nursing {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.nurse {
+    position: relative;
+    bottom: 8px;
+    color: #1D1D1D;
+}
+
+.drivers {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 4rem;
+    left: 13.5rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.drive {
+    position: relative;
+    bottom: 8px;
+    color: #1D1D1D;
+}
+
+.bouncers {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.bounce {
+    position: relative;
+    bottom: 8px;
+    color: #1D1D1D;
+}
+
+.drycleaners {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 7rem;
+    left: 13.5rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.dryclean {
+    position: relative;
+    bottom: 8px;
+    color: #1D1D1D;
+}
+
+.bodyguards {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.bodyguard {
+    position: relative;
+    bottom: 8px;
+    color: #1D1D1D;
+}
+
+.teachers {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 10rem;
+    left: 13.5rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.teach {
+    position: relative;
+    bottom: 8px;
+    color: #1D1D1D;
+}
+
+.messengers {
+    background: #F3F5F7;
+    color:  #8E8E8E;
+    border-radius: 30px;
+    width: 8rem;
+    position: absolute;
+    top: 12.8rem;
+    left: 7.5rem;
+    border: 1px solid;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+    .message {
+        position: relative;
+        bottom: 8px;
+        color: #1D1D1D;
+      }
+
+@media screen and (max-width: 1200px) {
+    .btns {
+        width: 290px;
+        font-size: 12px;
+    }
+
+    .messageb {
+        margin-left: rem;
+    }
+
+    .cook {
+        width: 90px;
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+    .drivers {
+        width: 90px;
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+    .drycleaners {
+        width: 90px;
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+    .teachers {
+        width: 90px;
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+    .messengers {
+        width: 90px;
+        font-size: 12px;
+        margin-left: -1.5rem;
+    }
+    .bouncers {
+        width: 90px;
+        font-size: 12px;
+    }
+    .nursing {
+        width: 90px;
+        font-size: 12px;
+    }
+    .bodyguards {
+        width: 90px;
+        font-size: 12px;
+    }
+    .mais {
+        width: 90px;
+        font-size: 12px;
+    }
+}

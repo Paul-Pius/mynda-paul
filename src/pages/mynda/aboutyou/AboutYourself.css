@@ -1,0 +1,38 @@
+.container-about {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6rem;
+  padding-bottom: 2rem;
+}
+
+.form-field-about {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    background: #F3F5F7;
+  }
+  
+  .head {
+    font-size: 15px;
+    color: #1D1D1D;
+    text-align: left;
+  }
+  
+  .telushead {
+    margin-bottom: 3rem;
+  }
+  
+  .fom-about {
+    background: white;
+    padding-right: 1rem;
+    padding-left: 1.3rem;
+    margin-top: -4.8rem;
+    padding-bottom: 2rem;
+    width: 23rem;
+  }
+

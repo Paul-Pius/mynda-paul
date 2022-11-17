@@ -1,0 +1,29 @@
+.container-terms {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 32rem;
+  }
+  
+  .fom-terms {
+    background: white;
+    height: 50rem;
+    width: 365px;
+    margin-top: -7rem;
+    padding-bottom: 10rem;
+    display: "flex"
+}
+
+
+@media screen and (max-width: 600px) {
+  .fom-terms {
+    width: 320px;
+  }
+}
+
+
+  
+
+

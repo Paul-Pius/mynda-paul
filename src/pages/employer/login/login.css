@@ -1,0 +1,50 @@
+.login-body {
+	margin: auto;
+	width: 80%;
+	font-family: montserrat;
+	font-weight: 600;
+}
+
+.login-form-header {
+	font-family: montserrat-medium;
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.login-form-header img {
+	width: 4em;
+	height: 4em;
+	object-fit: contain;
+	left: 4em;
+}
+
+.forgot-password {
+	font-size: 14px;
+	color: #204ECF;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.login-btn {
+	width: 95%;
+	font-size: 17px;
+	font-family: montserrat-bold;
+	padding: 1em;
+	/* border: 0; */
+	border-radius: 5px;
+	width: 100%;
+	color: #fff;
+	background-color: #204ECF;
+}
+
+.existing-user-alt {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	gap: .5em;
+}
+
+.existing-user-alt a {
+	font-weight: 800px;
+	color: black;
+}

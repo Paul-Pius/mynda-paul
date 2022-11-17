@@ -1,0 +1,23 @@
+.container-congrat {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7rem;
+  }
+
+  .congratf {
+    background: white;
+    height: 20rem;
+    width: 350px;
+    margin-bottom: 18rem;
+  }
+
+  .btnh {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.acc {
+      text-align: center;
+  }

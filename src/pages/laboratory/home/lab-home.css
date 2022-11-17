@@ -1,0 +1,26 @@
+.kyc-verification {
+	background: #E6ECFF;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.kyc-verification h3 {
+	font-family: montserrat-bold;
+}
+
+.kyc-verification button {
+	background: #204ECF;
+	color: #fff;
+	border: 0;
+	border-radius: 30px;
+	font-family: montserrat-medium;
+	font-weight: 700;
+	font-size: 15px;
+	width: 90%;
+	padding-top: 0.2em;
+	padding-bottom: 0.3em;
+}
